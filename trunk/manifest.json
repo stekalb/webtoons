@@ -1,0 +1,15 @@
+{
+    "name": "webtoonsapp.ste-kal",
+    "description": "unofficial webtoons.com WebApp",
+
+    "title": "webtoon",
+    "hooks": {
+        "webtoonsapp": {
+            "apparmor": "webtoonsapp.apparmor",
+            "desktop":  "webtoonsapp.desktop"
+        }
+    },
+    "version": "1.1",
+    "maintainer": "Stefan Kalb <stefan.kalb@gmx.ch>",
+    "framework" : "ubuntu-sdk-16.04"
+}
