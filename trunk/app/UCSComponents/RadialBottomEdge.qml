@@ -1,7 +1,7 @@
-import QtQuick 2.4
+import QtQuick 2.12
 import QtFeedback 5.0
 import Ubuntu.Components 1.3
-import QtQuick.Window 2.1
+import QtQuick.Window 2.2
 
 import "../config.js" as Conf
 

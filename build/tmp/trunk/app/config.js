@@ -1,5 +1,5 @@
 /*
-Config file for Tagiwebapp
+Config file for webtoons webapp
 */
 
 // Common Settings
@@ -9,7 +9,7 @@ var NavBackgroundColor = "#00dc64";
 var NavIconColor = "white";
 
 // Tablet Settings
-var TabletUrl = "http://www.webtoons.com/";
+var TabletUrl = "https://www.webtoons.com/";
 var TabletUA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36";
 var TabletZoom = 0.5;
 

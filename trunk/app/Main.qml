@@ -1,11 +1,11 @@
-import QtQuick 2.9
+import QtQuick 2.12
 import Ubuntu.Components 1.3
 import QtQuick.Window 2.2
 import Morph.Web 0.1
 import "UCSComponents"
-import QtWebEngine 1.7
+import QtWebEngine 1.10
 import Qt.labs.settings 1.0
-import QtSystemInfo 5.5
+//import QtSystemInfo 5.12
 import "config.js" as Conf
 
 MainView {
@@ -20,7 +20,7 @@ MainView {
   //theme.name: "Ubuntu.Components.Themes.SuruDark"
   backgroundColor: Conf.AppBackgroundColor
   applicationName: "webtoonsapp.ste-kal"
-  property string title: "Webtoon App"
+  property string title: Conf.AppTitle
 
   property string myTabletUrl: Conf.TabletUrl
   property string myMobileUrl: Conf.MobileUrl
@@ -44,14 +44,15 @@ MainView {
     //settings.appCacheEnabled: true
     settings.javascriptCanAccessClipboard: true
     settings.fullScreenSupportEnabled: true
+    settings.showScrollBars: false
     property var currentWebview: webview
     settings.pluginsEnabled: true
 
-    onFullScreenRequested: function(request) {
+/*     onFullScreenRequested: function(request) {
       mainview.fullScreenRequested(request.toggleOn);
       nav.visible = !nav.visible
       request.accept();
-    }
+    } */
     property string test: writeToLog("DEBUG","my URL:", myUrl);
     property string test2: writeToLog("DEBUG","PixelRatio:", Screen.devicePixelRatio);
     property string test6: writeToLog("DEBUG","F: my Zoom:", myZoom);

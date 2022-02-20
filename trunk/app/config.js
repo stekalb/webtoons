@@ -3,6 +3,7 @@ Config file for webtoons webapp
 */
 
 // Common Settings
+var AppTitle = "Webtoon App"
 var AppBackgroundColor = "#323232";
 var ActionBarScaleFactor = 1.75
 var NavBackgroundColor = "#00dc64";
