@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Webtoons
+Comment=Morph based alternate Webtoons Webapp
+Exec=qmlscene %u app/Main.qml --scaling
+Terminal=false
+Type=Application
+Keywords=webtoon;comic;webapp;toon;
+Icon=app/icons/logo.png
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Show-Header=false
+X-Ubuntu-Splash-Color=#ffffff
+X-Ubuntu-Splash-Image=app/icons/splash.svg
+Name[en_US]=Webtoons
